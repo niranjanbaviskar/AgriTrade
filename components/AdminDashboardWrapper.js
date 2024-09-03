@@ -40,7 +40,7 @@ export default function AdminDashboardWrapper({ children, page }) {
                     <Link href="/admin/add-center" width="100%">
                         <Button colorScheme='gray' bg={legalCenter && "gray.200"} padding={2} rounded={{ base: "full", lg: 4 }} alignItems={"center"} justifyContent="flex-start" width="100%">
                             <Icon boxSize={{ base: 7, lg: 5 }} as={LiaIdCard} />
-                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Legal Aid Centers</Text>
+                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>realtime crops and land information fron goverment database</Text>
                         </Button>
                     </Link>
                     <Link href="/admin/verify-lawyers" width="100%">

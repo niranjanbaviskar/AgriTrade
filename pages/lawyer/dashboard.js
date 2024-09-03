@@ -7,7 +7,7 @@ export default function Dashboard() {
 
     return (
         <LawyerDashboardWrapper page="dashboard">
-            <Heading fontSize="3xl">Lawyer Dashboard</Heading>
+            <Heading fontSize="3xl">company Dashboard</Heading>
         </LawyerDashboardWrapper>
     )
 }

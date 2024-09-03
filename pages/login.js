@@ -28,6 +28,7 @@ export default function Login({ challenge }) {
         checkAvailability();
     }, []);
 
+
     const handleBioLogin = async (event) => {
         event.preventDefault();
 
@@ -109,8 +110,8 @@ export default function Login({ challenge }) {
                     <Image src="/icon-black.svg" alt="Logo" width="100px" />
                     <Image src="/india.svg" alt="India" width="50px" />
                 </Flex>
-                <Heading fontSize={"5xl"} color={"white"} mb="20">We&apos;re Here to Simplify the Complexities of Law</Heading>
-                <Text color={"gray.200"}>© 2023 Nyay Sathi. All rights reserved.</Text>
+                <Heading fontSize={"5xl"} color={"white"} mb="20">We&apos;re here to Make Farm-to-Market Transactions Effortless and Transparent</Heading>
+                <Text color={"gray.200"}>© 2024 AgriTrade. All rights reserved.</Text>
             </Flex>
             <Flex width={{ base: "100%", lg: "60%" }} justifyContent={"center"} alignItems={"center"} padding={{ base: "20px", lg: "none" }}>
                 <Flex flexDirection={"column"} width={{ base: "100%", lg: "50%" }} justifyContent={"center"} alignItems={"center"} padding={"40px"} gap="4" bg={"white"} boxShadow='xl' rounded={"10"}>

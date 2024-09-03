@@ -53,7 +53,7 @@ export default function AskQuery() {
     const formData = new FormData();
     formData.append("file", blob);
     try {
-      const endpoint = 'https://nyaysathi.replit.app/ask-voice';
+      const endpoint = 'https://Agritrade.replit.app/ask-voice';
       // const endpoint = "http://localhost/ask-voice";
       const response = await fetch(endpoint, {
         method: "POST",
@@ -93,7 +93,7 @@ export default function AskQuery() {
     try {
       setIdk(false);
       setLoading(true);
-      const endpoint = 'https://nyaysathi.replit.app/ask';
+      const endpoint = 'https:/AgriTrade.replit.app/ask';
       // const endpoint = "http://127.0.0.1/ask";
       const requestData = {
         question: userInput,
@@ -131,7 +131,7 @@ export default function AskQuery() {
     try {
       setIdk(false);
       setLoading(true);
-      const endpoint = 'https://nyaysathi.replit.app/reask';
+      const endpoint = 'https://Agritrade.replit.app/reask';
       // const endpoint = "http://localhost/reask";
       const requestData = {
         question: userInput,
@@ -297,13 +297,13 @@ export default function AskQuery() {
       >
         {!loading && !apiOutput && (
           <Text>
-            Hi, I am NyaySathi. I can help you with your legal queries. Ask me
+            Hi, I am Agritrade. I can help you with your legal queries. Ask me
             anything. I can talk in English and Hindi.
           </Text>
         )}
         {loading && (
           <Text fontStyle={"italic"} fontWeight={"bold"}>
-            NyaySathi is Thinking...
+            AgriTrade is Thinking...
           </Text>
         )}
         {!loading && apiOutput && (
@@ -312,7 +312,7 @@ export default function AskQuery() {
               <source src={audio} />
               Your browser does not support the audio element.
             </audio> */}
-            <Text fontWeight={"bold"}>NyaySathi</Text>
+            <Text fontWeight={"bold"}>Agritrade</Text>
             {!idk && <Text>{apiOutput}</Text>}
             {idk && (
               <Flex flexDir={"column"} gap="4">
@@ -356,7 +356,7 @@ export default function AskQuery() {
             <Stack direction={{ base: "column", lg: "row" }}>
               {!idk && sourceDocs.length > 0 && sourceDocs.map((doc) => (
                 <Link key={doc}
-                  href={`https://storage.googleapis.com/nyaysathi.appspot.com/${doc}.txt`}
+                  href={`https://storage.googleapis.com/Agritrade.appspot.com/${doc}.txt`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

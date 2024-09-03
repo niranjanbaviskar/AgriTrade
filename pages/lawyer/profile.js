@@ -221,7 +221,7 @@ useEffect(() => {
                                     templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
                                     gap={6}
                                 >
-                                    <FormControl id="firstName">
+                                    <FormControl id="owner firstName">
                                         <FormLabel>First Name</FormLabel>
                                         <Input onChange={e => setFname(e.target.value)}
                                             borderColor='yellow.500' focusBorderColor="brand.blue" type="text" value={fname} />
@@ -232,7 +232,7 @@ useEffect(() => {
                                             borderColor='yellow.500' focusBorderColor="brand.blue" type="text" value={lname} />
                                     </FormControl>
                                     <FormControl id="lawyerNo">
-                                        <FormLabel>Lawyer Registration Number</FormLabel>
+                                        <FormLabel>company Registration Number</FormLabel>
                                         <Input
                                             borderColor='yellow.500'
                                             focusBorderColor="brand.blue"
@@ -300,7 +300,7 @@ useEffect(() => {
                                         />
                                     </FormControl>
                                     <FormControl id="age">
-                                        <FormLabel>Age</FormLabel>
+                                        <FormLabel>establish year</FormLabel>
                                         <Input
                                             borderColor='yellow.500'
                                             focusBorderColor="brand.blue"
@@ -310,20 +310,17 @@ useEffect(() => {
                                         />
                                     </FormControl>
                                     <FormControl id="gender">
-                                        <FormLabel>Gender</FormLabel>
-                                        <ChakraSelect
+                                        <FormLabel>iso no.</FormLabel>
+                                        <Input
                                             borderColor='yellow.500'
                                             size='md'
                                             width={{ base: "100%", lg: "480px" }}
-                                            placeholder="Gender"
+                                            placeholder="number"
                                             value={gender}
                                             color={"black"}
                                             onChange={e => setGender(e.target.value)}
-                                        >
-                                            <option key="Male" value="Male">Male</option>
-                                            <option key="Female" value="Female">Female</option>
-                                            <option key="Other" value="Other">Other</option>
-                                        </ChakraSelect>
+                                        />
+                                      
                                     </FormControl>
                                     <FormControl id="degree">
                                         <FormLabel>Degree</FormLabel>
@@ -346,7 +343,7 @@ useEffect(() => {
                                         />
                                     </FormControl>
                                     <FormControl>
-                                        <FormLabel>Specialization</FormLabel>
+                                        <FormLabel>need of crops</FormLabel>
                                         <Select
                                             styles={colourStyles}
                                             className="basic-single"
@@ -369,8 +366,8 @@ useEffect(() => {
                                             onChange={e => setSpecialization(e.target.value)}
                                         />
                                     </FormControl> */}
-                                    <FormControl id="experience">
-                                        <FormLabel>Experience</FormLabel>
+                                    <FormControl id=".">
+                                        <FormLabel>.</FormLabel>
                                         <Input
                                             borderColor='yellow.500'
                                             focusBorderColor="brand.blue"
@@ -379,8 +376,8 @@ useEffect(() => {
                                             onChange={e => setExperience(e.target.value)}
                                         />
                                     </FormControl>
-                                    <FormControl id="fees">
-                                        <FormLabel>Fees</FormLabel>
+                                    <FormControl id="marketvalue">
+                                        <FormLabel>marketvalue</FormLabel>
                                         <Input
                                             borderColor='yellow.500'
                                             focusBorderColor="brand.blue"

@@ -72,7 +72,7 @@ export default function AidDirectory() {
 
     return (
         <DashBoardWrapper page="aid">
-            <Heading fontSize="3xl">Legal Aid Center</Heading>
+            <Heading fontSize="3xl">realtime crops and land information fron goverment database</Heading>
             <Flex gap={4} mt={10} flexDirection={{ base: "column", lg: "row" }} >
 
 

@@ -31,7 +31,7 @@ export default function Home() {
             </Flex>}
             <Tabs variant='soft-rounded' colorScheme='yellow' isFitted >
                 <Flex justifyContent={"space-between"} mb={{ base: 6, lg: "10" }} flexDirection={{ base: "column", lg: "row" }}>
-                    <Heading fontSize="3xl">AI Legal Assistant</Heading>
+                    <Heading fontSize="3xl">AI Farmer Assistant</Heading>
                     <TabList width={{ base: "100%", lg: "45%" }} mt={{ base: 4, lg: 0 }} bg={"gray.50"} rounded="full">
                         <Tab>Ask</Tab>
                         <Tab>Chat</Tab>

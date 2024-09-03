@@ -57,19 +57,19 @@ export default function DashBoardWrapper({ children, page }) {
                     <Link href="/file-summarize" width="100%">
                         <Button colorScheme='gray' bg={file && "gray.200"} padding={2} rounded={{ base: "full", lg: 4 }} alignItems={"center"} justifyContent="flex-start" width="100%">
                             <Icon boxSize={{ base: 7, lg: 5 }} as={AiOutlineFileSearch} />
-                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Case Summarize</Text>
+                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Add your cropse</Text>
                         </Button>
                     </Link>
                     <Link href="/storage" width="100%">
                         <Button colorScheme='gray' bg={storage && "gray.200"} padding={2} rounded={{ base: "full", lg: 4 }} alignItems={"center"} justifyContent="flex-start" width="100%">
                             <Icon boxSize={{ base: 7, lg: 5 }} as={TbCloudUpload} />
-                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Secure Storage</Text>
+                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Crops Details</Text>
                         </Button>
                     </Link>
                     <Link href="/aid-directory" width="100%">
                         <Button colorScheme='gray' bg={aid && "gray.200"} padding={2} rounded={{ base: "full", lg: 4 }} alignItems={"center"} justifyContent="flex-start" width="100%">
                             <Icon boxSize={{ base: 7, lg: 5 }} as={RiContactsBookLine} />
-                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>Aid Directory</Text>
+                            <Text display={{ base: "none", lg: "block" }} marginLeft={{ base: 0, lg: 3 }}>crops & land information</Text>
                         </Button>
                     </Link>
                     <Box display={{ base: "none", lg: "block" }}>

@@ -52,7 +52,7 @@ export default function Storage() {
         const formData = new FormData();
         formData.append("file", file);
 
-        fetch("http://nyaysathi.replit.app/upload", {
+        fetch("http://Agritrade.replit.app/upload", {
         // fetch("http://localhost/upload", {
             method: "POST",
             body: formData,
@@ -64,7 +64,7 @@ export default function Storage() {
                 setUploading(false);
                 toast({
                     title: "Success",
-                    description: "File uploaded successfully. Please save the file to your secure storage.",
+                    description: "File uploaded successfully. Please save the file to your crops details.",
                     status: "success",
                     duration: 3000,
                     isClosable: true,
@@ -105,7 +105,7 @@ export default function Storage() {
             setUploading(false);
             toast({
                 title: "Success",
-                description: "File uploaded successfully. Please save the file to your secure storage.",
+                description: "File uploaded successfully. Please save the file to your Crops details.",
                 status: "success",
                 duration: 3000,
                 isClosable: true,
@@ -224,7 +224,7 @@ export default function Storage() {
                 </ModalContent>
             </Modal>
             <Flex justifyContent={"space-between"} mb={{ base: 6, lg: "10" }} gap="4" alignItems={{ base: "flex-start", lg: "center" }} flexDirection={{ base: "column", lg: "row" }}>
-                <Heading fontSize="3xl">Secure Storage</Heading>
+                <Heading fontSize="3xl">crops Details</Heading>
                 <Button colorScheme="yellow" leftIcon={<PiUploadSimpleBold />} onClick={onOpen}>Upload File</Button>
             </Flex>
             <Heading fontSize="xl" mb={"4"} mt={"4"}>My Files</Heading>

@@ -16,7 +16,7 @@ export default function KYR() {
 
     function handleKYR() {
         setLoading(true)
-        const endpoint = 'http://nyaysathi.replit.app/kyr';
+        const endpoint = 'http://Agritrade.replit.app/kyr';
 
         const requestData = {
             age: age,

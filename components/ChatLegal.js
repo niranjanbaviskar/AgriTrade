@@ -7,13 +7,13 @@ export default function ChatLegal() {
     const [ loading, setLoading ] = useState(false)
     const [ userInput, setUserInput ] = useState(null)
     const [ act, setAct ] = useState(null)
-    const [ messages, setMessages ] = useState([ "Hi, I am NyaySathi. I can help you with your legal queries. Ask me anything. I can talk in English and Hindi." ])
+    const [ messages, setMessages ] = useState([ "Hi, I am AgriTrade. I can help you with your crop selling queries. Ask me anything. I can talk in English and Hindi." ])
 
     const addMessage = () => {
-        setMessages([ ...messages, userInput, "NyaySathi is Thinking..." ])
+        setMessages([ ...messages, userInput, "AgriTrade is Thinking..." ])
         setUserInput("")
         setLoading(true)
-        const base = 'https://nyaysathi.replit.app/';
+        const base = 'https://AgriTrade.replit.app/';
         // const base = 'http://localhost/'
         if (messages.length === 1) {
             const endpoint = base + 'ask';
@@ -102,7 +102,7 @@ export default function ChatLegal() {
                         onChange={(e) => setUserInput(e.target.value)} />
                     <Button colorScheme='yellow' size={"sm"} rounded="full" position={"absolute"} bottom={1} right={1} isLoading={loading} zIndex={2} ><Icon as={IoSend} color={"gray.50"} onClick={addMessage} /></Button>
                 </Flex>
-                <Text fontSize={{ base: "2xs", lg: "sm" }} width={"100%"} textAlign={"center"} paddingBottom={{ base: 1, lg: 2 }}>NyaySathi can make mistakes. Consider checking important information.</Text>
+                <Text fontSize={{ base: "2xs", lg: "sm" }} width={"100%"} textAlign={"center"} paddingBottom={{ base: 1, lg: 2 }}>Agritrade can make mistakes. Consider checking important information.</Text>
             </Flex>
         </Flex>
     )

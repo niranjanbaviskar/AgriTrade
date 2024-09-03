@@ -81,7 +81,7 @@ export default function FileSummarize() {
 
     return (
         <DashBoardWrapper page="file">
-            <Heading fontSize="3xl">Case Summarizer</Heading>
+            <Heading fontSize="3xl">Add your crops</Heading>
             <Box padding={{ base: 0, lg: 6 }} marginTop={{ base: 6, lg: 0 }}>
                 {file ? (
                     <Box>
