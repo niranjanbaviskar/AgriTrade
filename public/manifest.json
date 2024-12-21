@@ -468,9 +468,9 @@
     "dir": "auto",
     "lang": "en-US",
     "name": "Nyay Sathi",
-    "short_name": "Nyay Sathi",
-    "start_url": "https://nyaysathi.vercel.app/login",
-    "scope": "https://nyaysathi.vercel.app",
+    "short_name": "AgriTrade",
+    "start_url": "https://agritrade-ten.vercel.app/login",
+    "scope": "https://agritrade-ten.vercel.app",
     "id": "nyaysathi",
     "description": "Nice App"
 }
