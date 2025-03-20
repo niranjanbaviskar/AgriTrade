@@ -11,9 +11,10 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/next-js": "^2.1.5",
-    "@chakra-ui/react": "^2.8.1",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@chakra-ui/react": "^2.10.7",
+    "@chakra-ui/system": "^2.6.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@github/webauthn-json": "^2.1.1",
     "@simplewebauthn/browser": "^8.3.4",
     "@simplewebauthn/server": "^8.3.5",
@@ -21,8 +22,10 @@
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
     "firebase": "^10.13.1",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
+    "groq-sdk": "^0.17.0",
     "iron-session": "^6.3.1",
+    "lucide-react": "^0.483.0",
     "next": "13.5.1",
     "react": "18.2.0",
     "react-audio-voice-recorder": "^2.2.0",
@@ -30,7 +33,9 @@
     "react-files": "^3.0.0",
     "react-icons": "^4.12.0",
     "react-select": "^5.8.0",
+    "recharts": "^2.15.1",
     "recorder-js": "^1.0.7",
     "tone": "^14.7.77"
   }
 }
+
