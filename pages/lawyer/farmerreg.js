@@ -9,7 +9,7 @@ import { User, Info, Star, ShoppingCart } from "lucide-react";
 const farmers = [
     {
         id: 1,
-        name: "Ramesh Patil",
+        name: "Niranjan Baviskar",
         rating: 4.6,
         crop: "red chili(dry)",
         description: "Experienced farmer cultivating high-quality wheat using sustainable methods. Ensuring chemical-free produce with rich nutritional value.",
