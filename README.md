@@ -1,40 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🌾 AgriTrade – Connecting Farmers to Markets
 
-## Getting Started
+AgriTrade is a platform designed to connect farmers directly with markets and companies, ensuring they receive fair prices for their products while helping companies source quality agricultural goods efficiently.
 
-First, run the development server:
+🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
+✅ For Farmers
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Register & Verify – Farmers can register and verify their land & crops.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+List Crops for Sale – Easily list available crops with quantity & price.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Market Insights – Get real-time market rates & demand analysis.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Direct Sales – Sell directly to companies without middlemen.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Secure Payments – Ensure timely & secure payments for transactions.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+✅ For Companies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Browse Crop Listings – View available crops and their sellers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Request Bulk Orders – Connect with multiple farmers for large orders.
 
-## Deploy on Vercel
+Automated Contract Management – Secure transactions with digital agreements.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Real-Time Data Access – Analyze crop availability & pricing trends.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+🛠️ Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: Firebase (with government database integration)
+
+Authentication: OAuth
+
+AI Integration: Price prediction & crop demand analysis
+
+Api: groq api, news api
+
+
+📌 How It Works
+
+1. Farmers & Companies Register – Users create accounts & verify details.
+
+
+2. Farmers List Crops – Upload crop details (quantity, price, location).
+
+
+3. Companies Browse & Order – Buyers connect with sellers based on demand.
+
+
+4. Contracts & Payments – Secure transactions with automated agreements.
+
+
+5. Real-Time Market Analysis – AI-driven insights on crop prices & demand.
+
+
+
+🏆 Why AgriTrade?
+
+✅ Eliminates middlemen – Farmers get fair prices, and companies save costs.
+✅ Data-Driven Insights – AI-powered analytics for smarter trading.
+✅ Secure & Transparent – Trustworthy transactions with digital contracts.
+✅ Empowers Rural Economy – Helps small-scale farmers access larger markets.
+
+📜 Future Enhancements
+
+Blockchain-based smart contracts for transactions.
+
+AI-driven crop health analysis.
+
+International market access for farmers.
+
+
+📬 Contact
+
+For queries, collaboration, or suggestions, feel free to reach out:
+🔗 email: niranjanbaviskar23@gmail.com 
+🔗 LinkedIn: https://www.linkedin.com/in/niranjan-baviskar-a1785628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+
+
