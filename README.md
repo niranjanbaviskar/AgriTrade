@@ -80,6 +80,7 @@ International market access for farmers.
 📬 Contact
 
 For queries, collaboration, or suggestions, feel free to reach out:
+
 🔗 email: niranjanbaviskar23@gmail.com 
 🔗 LinkedIn: https://www.linkedin.com/in/niranjan-baviskar-a1785628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
