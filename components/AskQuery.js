@@ -90,7 +90,7 @@ function AgriTradeBot() {
   
       // Use Web Speech API for speech recognition
        const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-      recognition.lang = "mr-IN";
+      recognition.lang = "en-IN";
       recognition.onresult = (event) => {
         const speechText = event.results[0][0].transcript;
         setQuery(speechText);
