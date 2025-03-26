@@ -90,12 +90,28 @@ function AgriTradeBot() {
   
       // Use Web Speech API for speech recognition
       const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-      recognition.lang = "en-US";
-      recognition.onresult = (event) => {
-        const speechText = event.results[0][0].transcript;
-        setQuery(speechText);
-        get_completion(speechText);
-      };
+recognition.lang = "en-US"; // Default language
+
+recognition.onresult = (event) => {
+  const speechText = event.results[0][0].transcript;
+  
+  // Function to detect language (basic approach)
+  const detectLanguage = (text) => {
+    if (/[\u0900-\u097F]/.test(text)) return "hi-IN"; // Hindi
+    if (/[\u0C80-\u0CFF]/.test(text)) return "mr-IN"; // Marathi
+    return "en-US"; // Default to English
+  };
+
+  // Set language dynamically based on detected language
+  recognition.lang = detectLanguage(speechText);
+
+  setQuery(speechText);
+  get_completion(speechText);
+};
+
+// Start recognition
+recognition.start();
+
       recognition.onerror = (event) => {
         if (event.error === "no-speech") {
           setError("No speech detected. Please try again.");
